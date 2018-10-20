@@ -1,0 +1,69 @@
+ul{
+    list-style-type: none;
+}
+.Line a{
+    text-decoration: none;
+    width: 80px;
+    border-right: 1px solid white;
+}
+.Line{
+    background-color: #bbbbff;
+    float: left;
+    width: 100%;
+}
+.Line a:hover{
+    background-color: aliceblue;
+}
+
+.Dropdownbtn{
+    background-color: #bbbbff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.Dropdown{
+    position: relative;
+    display: inline-block;
+}
+.Dropdown-content{
+    display:none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.Dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+}
+
+.Dropdown-content a:hover{
+    background-color: #f1f1f1;
+}
+.Dropdown:hover .Dropdown-content{
+    display: block;
+}
+.Dropdown:hover .Dropdownbtn{
+    background-color: aliceblue;
+    color: black;
+    border:1px solid cornflowerblue;
+}
+
+.PointingNav{
+    list-style: none;
+    border: 1px solid black;
+}
+.PointingNav li{
+    display: inline;
+}
+.PointingNav a{
+    text-decoration: none;
+}
+.PointingNav li+li::before{
+    content:">";
+}
