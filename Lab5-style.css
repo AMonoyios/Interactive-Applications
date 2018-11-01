@@ -1,0 +1,51 @@
+.Verdana-BG li{
+    list-style: none;
+    font-size: 12pt;
+    font-family: Verdana sans-serif;
+}
+.Verdana-BG{
+    background-color: #bfbfbf;
+}
+
+.Georgia-BG li{
+    list-style: none;
+    font-size: 14pt;
+    font-family: Georgia serif;
+}
+.Georgia-BG{
+    background-color: #ffe680;
+}
+
+.Courier-New-BG li{
+    list-style: none;
+    font-size: 12pt;
+    font-family: Courier;
+}
+.Courier-New-BG{
+    background-color: #99b3e6;
+}
+
+.A{
+    font-style: normal;
+}
+.B{
+    font-weight: bold ;
+}
+.C{
+    font-style: italic;
+}
+.D{
+    margin-right: 1%;
+    text-align: right ;
+}
+
+div{
+    margin-left: 10%;
+    height: 10%;
+    width: 80%;
+    border: solid #808080 1px;
+}
+
+h1{
+    text-align: center;
+}
