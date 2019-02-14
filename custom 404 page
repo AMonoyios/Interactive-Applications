@@ -1,0 +1,13 @@
+Custom 404 page steps:
+
+1) open filezilla 
+- this application is a portaple server creator that creates a folder in which inside is your pages css files etc.
+
+2) Create in the public_html folder an "404.html"
+- inside that 404.html we can add our own text and styling and will automatically apply when the user tries to view a non existing page
+
+3) Create a ".htaccess" file in the public_html
+- inside that .htaccess write this -> ErrorDocument 404 /~username/filename.html <- and replace the apropriate values
+
+4) run your website using the vesta.uclan.ac.uk/~username/(A website that does not exit)
+- you will see that your error.html page appeared instead of a normal 404 page
